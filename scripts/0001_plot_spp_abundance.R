@@ -7,7 +7,7 @@ library(ggplot2)
 ## Load data ####
 
 All.abundance.spp<- read.csv("data/spp_abundance.csv")
-head(All.abundance.spp)
+head(All.abundance.spp) 
 
 
 ## Plot spp abundances ####
