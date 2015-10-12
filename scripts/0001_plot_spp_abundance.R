@@ -27,5 +27,5 @@ ggplot(All.abundance.spp, aes(x=Year, y=TotalCounts, colour=Genusspecies)) +
   theme(axis.title.y = element_text(size = 15))+  
   theme(axis.text.y = element_text(size = 15))+  
   theme(axis.text.x = element_text(size = 15))+  
-  theme(legend.position="right",legend.title=element_text(size=20), legend.text=element_text(size=20))
+  theme(legend.position="left",legend.title=element_text(size=20), legend.text=element_text(size=20))
 
